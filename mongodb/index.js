@@ -5,6 +5,7 @@ import config from '../config'
 // 同步引入 info model和 studen model
 require('./schema/info')
 require('./schema/student')
+require('./schema/course')
 
 // 链接mongodb
 export const database = () => {
